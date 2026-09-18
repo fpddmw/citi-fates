@@ -1,0 +1,22 @@
+# Local experiments, caches and private material
+.local/
+.cache/
+tmp/
+temp/
+*.tmp
+*.log
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# Generated output; no engine has been selected
+build/
+dist/
